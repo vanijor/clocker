@@ -45,7 +45,7 @@ export default function Home() {
       password: ''
     }
   })
-
+  
   useEffect(() => {
     auth.user && router.push('/agenda')
   }, [auth.user])
